@@ -5,5 +5,8 @@
     <Title>工具安装</Title>
     <Publisher>hybtalented@163.com</Publisher>
     <StartMenuDir>hybtalented</StartMenuDir>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
     <TargetDir>@ApplicationsDir@/hybtalented</TargetDir>
+    <MaintenanceToolName>更新(卸载)</MaintenanceToolName>
+    <ControlScript>controller.qs</ControlScript>
 </Installer>

@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>http请求工具</DisplayName>
-    <Description>用于测试http的请求(基于libcurl)，并可以显示和调试html页面(基于chrome内核)</Description>
+    <DisplayName>基本库</DisplayName>
+    <Description>App所依赖的基本安装库</Description>
     <Version>1.0.0-1</Version>
     <ReleaseDate>2019-02-22</ReleaseDate>
-    <Dependencies>base-&gt;=1.0.0-1</Dependencies>
+    <Licenses>
+        <License name="FreeBSD license" file="license.txt"/>
+    </Licenses>
     <Default>true</Default>
     <Script>installscript.qs</Script>
+    <ForcedInstallation>true</ForcedInstallation>
     <!-- <UserInterfaces>
         <UserInterface>MainWindow.ui</UserInterface>
     </UserInterfaces> -->
