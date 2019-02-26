@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>http请求工具</DisplayName>
+    <Description>用于测试http的请求(基于libcurl)，并可以显示和调试html页面(基于chrome内核)</Description>
+    <Version>1.0.0-1</Version>
+    <ReleaseDate>2019-02-22</ReleaseDate>
+    <Licenses>
+        <License name="FreeBSD license">license.txt</License>
+    </Licenses>
+    <!-- <Default>script</Default> -->
+    <!-- <Script></Script> -->
+    <!-- <UserInterfaces>
+        <UserInterface>MainWindow.ui</UserInterface>
+    </UserInterfaces> -->
+</Package>
