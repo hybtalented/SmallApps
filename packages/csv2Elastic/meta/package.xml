@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>CSV同步ELasticsearch工具</DisplayName>
+    <Description>用于将CSV的数据同步到Elasticsearch服务器</Description>
+    <Version>1.0.0-3</Version>
+    <ReleaseDate>2019-03-07</ReleaseDate>
+    <Dependencies>base-&gt;=1.0.0-1</Dependencies>
+    <Default>true</Default>
+    <Script>installscript.qs</Script>
+    <!-- <UserInterfaces>
+        <UserInterface>MainWindow.ui</UserInterface>
+    </UserInterfaces> -->
+</Package>
